@@ -1,4 +1,4 @@
-*{
+#bootstrap5mde{
     --border-color: #dddddd;
     --svg-fill-color: #8f98a1;
     --svg-fill-color-primary: #0d6efd;
@@ -55,4 +55,10 @@
 
 .shadow-hover{
     transition: box-shadow 0.22s ease-in-out;
+}
+
+#bootstrap5mde-btn-toolbar svg{
+    width: 30px;
+    height: 30px;
+    color: var(--svg-fill-color);
 }
